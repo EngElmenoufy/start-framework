@@ -7,16 +7,34 @@
 
 section {
   min-height: inherit;
+  margin-top: 87.6px;
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    margin-top: 88px;
+  }
 }
 
 .home-section,
 .about-section {
   background-color: var(--secondary-color);
-  padding: 3rem;
+  padding: 0.5rem;
 }
+
 .home-section > div,
 .about-section > div {
-  margin: 3rem;
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    padding: 3rem;
+  }
+  .home-section > div,
+  .about-section > div {
+    margin: 3rem;
+  }
 }
 
 a:link,

@@ -59,7 +59,7 @@
 
 @if (selectedImgSrc) {
 <div
-  class="position-fixed top-0 start-0 vh-100 vw-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center model"
+  class="position-fixed z-3 top-0 start-0 vh-100 vw-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center model"
   (click)="onCloseModel($event)">
   <img [src]="selectedImgSrc" alt="card">
 </div>

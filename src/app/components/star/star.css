@@ -37,4 +37,7 @@
 
 .star-container {
   width: fit-content;
+  white-space: nowrap;
 }
+
+/* white-space: ; */
