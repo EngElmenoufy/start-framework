@@ -1,0 +1,14 @@
+input:focus,
+input {
+  border: 1px solid;
+  border-color: transparent transparent #dfe3e6;
+  outline: none;
+  padding: 10px;
+}
+
+button,
+button:hover {
+  background-color: var(--secondary-color);
+  width: fit-content;
+  color: #fff;
+}

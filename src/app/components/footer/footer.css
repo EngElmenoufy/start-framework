@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--primary-color);
+}
+
+.copyright {
+  background-color: #1a252f;
+  color: #f0f8ff;
+}
+
+.socials {
+  list-style: none;
+}
+
+.socials li {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

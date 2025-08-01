@@ -1,0 +1,13 @@
+nav {
+  background-color: var(--primary-color);
+}
+
+.link-active {
+  background-color: var(--secondary-color);
+  border-radius: 0.5rem;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #fff;
+}

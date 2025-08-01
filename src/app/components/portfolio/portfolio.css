@@ -1,0 +1,27 @@
+.row > div {
+  cursor: pointer;
+}
+
+.row .overlay {
+  background-color: #1abc9ce6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.row > div:hover .overlay {
+  opacity: 1;
+}
+
+.row i {
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.model img {
+  width: 40%;
+}

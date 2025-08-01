@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #1abc9c;
+}
+
+section {
+  min-height: inherit;
+}
+
+.home-section,
+.about-section {
+  background-color: var(--secondary-color);
+  padding: 3rem;
+}
+.home-section > div,
+.about-section > div {
+  margin: 3rem;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}

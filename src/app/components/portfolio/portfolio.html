@@ -1,0 +1,66 @@
+<section class="container pb-4">
+  <app-star title="portfolio component" [isDark]="true" />
+
+  <div class="row g-5">
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port1.png" alt="">
+
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port2.png" alt="">
+
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port3.png" alt="">
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port1.png" alt="">
+
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port2.png" alt="">
+
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4" (click)="onSelectCard($event)">
+      <div class="card position-relative rounded-2 overflow-hidden">
+        <img src="port3.png" alt="">
+        <div class="position-absolute top-0 start-0 text-white overlay">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@if (selectedImgSrc) {
+<div
+  class="position-fixed top-0 start-0 vh-100 vw-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center model"
+  (click)="onCloseModel($event)">
+  <img [src]="selectedImgSrc" alt="card">
+</div>
+}

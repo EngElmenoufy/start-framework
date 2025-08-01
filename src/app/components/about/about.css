@@ -1,0 +1,10 @@
+:host {
+  min-height: inherit;
+}
+
+.row .col:first-child {
+  padding: 0 0.8rem 0 3rem;
+}
+.row .col:last-child {
+  padding: 0 3rem 0 0.8rem;
+}
